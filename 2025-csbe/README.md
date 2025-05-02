@@ -25,4 +25,4 @@
 
 13. Microsoft, “GlobalMLBuildingFootprints: Worldwide building footprints derived from satellite imagery.” Accessed: Aug. 15, 2024. [Online](https://github.com/microsoft/GlobalMLBuildingFootprints?tab=readme-ov-file#will-there-be-more-data-coming-for-other-geographies).
 
-14. Specifically, we do this by drawing the smallest possible rectangles around every parking lot, and only building on those parking lots that 1) Are above 160 m<sup>2<\sup>, 2) Have bounding rectangles with an aspect ratio <= 4, and 3) fill at least 80% of their bounding rectangles.
+14. Specifically, we do this by drawing the smallest possible rectangles around every parking lot, and only building on those parking lots that 1) Are above 160 m<sup>2</sup>, 2) Have bounding rectangles with an aspect ratio <= 4, and 3) fill at least 80% of their bounding rectangles.
