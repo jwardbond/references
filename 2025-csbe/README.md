@@ -24,3 +24,12 @@
 12. Microsoft, “GlobalMLBuildingFootprints: Worldwide building footprints derived from satellite imagery.” Accessed: Aug. 15, 2024. [Online](https://github.com/microsoft/GlobalMLBuildingFootprints?tab=readme-ov-file#will-there-be-more-data-coming-for-other-geographies).
 
 13. Specifically, we do this by drawing the smallest possible rectangles around every parking lot, and only building on those parking lots that 1) Are above 160 m<sup>2</sup>, 2) Have bounding rectangles with an aspect ratio <= 4 and, 3) fill at least 80% of their bounding rectangles.
+
+14. Raw data: 
+
+| Relative Transit Weight | Median_Train (m) | Median_Bus (m) | Total_cost_emb (kg CO2e) |
+|----------|--------------|------------|----------------|
+| 1x       |      1511.89 |     171.97 | 2.61e+09 |
+| 10x      |      1293.14 |     165.36 | 3.01e+09 |
+| 30x      |      1225.38 |     140.49 | 6.17e+09 |
+| 100x     |      1212.46 |     135.76 | 6.59e+09 |
